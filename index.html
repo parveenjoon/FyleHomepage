@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Contact Us Pop-up Form -->
+<div id="contactUsModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form id="contactForm" action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" id="submitForm">Submit</button>
+        </form>
+    </div>
+</div>
+
+<!-- Slider for What We Do Section -->
+<div id="whatWeDo" class="container">
+    <div class="row">
+        <div class="col">
+            <div id="slider">
+                <div class="slide">
+                    <img src="image1.jpg" alt="Image 1">
+                </div>
+                <div class="slide">
+                    <img src="image2.jpg" alt="Image 2">
+                </div>
+                <div class="slide">
+                    <img src="image3.jpg" alt="Image 3">
+                </div>
+            </div>
+            <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+        <div class="col">
+            <div id="whatWeDoContent">
+                <!-- Content for What We Do section goes here -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Our Project Section -->
+<div id="ourProject" class="container">
+    <div class="row">
+        <div class="col">
+            <div id="projectContent">
+                <!-- Project content goes here -->
+                <div class="project-content" id="content1">Project Content 1</div>
+                <div class="project-content" id="content2">Project Content 2</div>
+                <div class="project-content" id="content3">Project Content 3</div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="projectImages">
+                <img id="projectImage" src="image1.jpg" alt="Project Image">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Highlight on Hover Section -->
+<div id="highlightOnHover" class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                Card 1
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                Card 2
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                Card 3
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
